@@ -1,0 +1,4 @@
+com/springai/openai/api/OpenAiChatApi.class
+com/springai/openai/SpringAiOpenaiApplication.class
+com/springai/openai/service/OpenAIChatService.class
+com/springai/openai/config/ModelConfig.class
