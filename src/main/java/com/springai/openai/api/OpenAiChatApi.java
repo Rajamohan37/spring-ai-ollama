@@ -15,11 +15,6 @@ public class OpenAiChatApi {
         this.openAIChatService = openAIChatService;
     }
 
-    @GetMapping
-    public String test() {
-        return "Test";
-    }
-
     @GetMapping("/ollama/llama/chat")
     public String chatLlama(String prompt) {
         return openAIChatService.chatWithLlama3(prompt);

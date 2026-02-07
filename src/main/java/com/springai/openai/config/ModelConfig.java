@@ -26,7 +26,7 @@ public class ModelConfig {
                 .build();
     }
 
-    @Bean
+    // @Bean
     public OllamaChatModel mistralChatModel(OllamaApi ollamaApi, ObservationRegistry observationRegistry) {
         System.out.println("OllamaChatModel - mistral");
         return OllamaChatModel.builder()
